@@ -6,47 +6,47 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b> ❏ Perintah untuk Pengguna BOT
- ├ /start - Mulai Bot
- ├ /about - Tentang Bot ini
- ├ /help - Bantuan Perintah Bot ini
- ├ /ping - Untuk mengecek bot hidup
- └ /uptime - Untuk melihat status bot 
+<b> ❏ Commands for BOT Users 
+ ├ /start - Start Bot
+ ├ /about - About this Bot
+ ├ /help - Bot Command Help
+ ├ /ping - About bot ping
+ └ /uptime - Bot uptime
  
- ❏ Perintah Untuk Admin BOT
- ├ /logs - Untuk melihat logs bot
- ├ /setvar - Untuk mengatur var dengan command dibot
- ├ /delvar - Untuk menghapus var dengan command dibot
- ├ /getvar - Untuk melihat salah satu var dengan command dibot
- ├ /users - Untuk melihat statistik pengguna bot
- ├ /batch - Untuk membuat link lebih dari satu file
- ├ /speedtest - Untuk Mengetes kecepatan server bot
- └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
+ ❏ Command For Admin BOT
+ ├ /logs - get bot logs
+ ├ /setvar - To set var with the dibot command
+ ├ /delvar - To delete var with the dibot command 
+ ├ /getvar - To see one of the vars with the dibot command
+ ├ /users -To view bot user statistics 
+ ├ /batch - To batch files
+ ├ /speedtest - bot server speed test
+ └ /broadcast - broadcast message to users
 
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+👨‍💻 Develoved by </b><a href='https://t.me/ur_core_i9'>@ur_core_i9</a>
 """
 
     close = [
-        [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
+        [InlineKeyboardButton("CLOSE", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("HELP & COMMANDS", callback_data="help"),
+            InlineKeyboardButton("CLOSE", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("ABOUT BOT", callback_data="about"),
+            InlineKeyboardButton("CLOSE", callback_data="close")
         ],
     ]
 
     ABOUT = """
-<b>Tentang Bot ini:
-
+<b>About this Bot:
+ 
 @{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
 
  • Creator: @{}
