@@ -49,9 +49,9 @@ class Data:
  
 @{} is a Telegram bot for saving posts or files that can be accessed via a special link.
 
- • Creator: @{}
+ • Creator: @ur_core_i9
  • Framework: <a href='https://docs.pyrogram.org'>Pyrogram</a>
- • Source Code: <a href='https://t.me/ur_core_i9'>ASK-POLIETLY v4</a>
+ • Source Code: <a href='https://t.me/ur_core_i9'>ASK-POLIETLY </a>
 
 👨‍💻 Develoved by </b><a href='https://t.me/ur_core_i9'>@ur_core_i9</a>
 """
