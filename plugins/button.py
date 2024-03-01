@@ -10,7 +10,7 @@ def start_button(client):
     if not FORCE_SUB:
         buttons = [
             [
-                InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
+                InlineKeyboardButton(text="HELP & COMMANDs", callback_data="help"),
                 InlineKeyboardButton(text="CLOSE", callback_data="close"),
             ],
         ]
@@ -31,10 +31,10 @@ def start_button(client):
 
     buttons = [
         [
-            InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
+            InlineKeyboardButton(text="HELP & COMMANDs", callback_data="help"),
         ],
     ] + dynamic_buttons + [
-        [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close")],
+        [InlineKeyboardButton(text="CLOSE", callback_data="close")],
     ]
     return buttons
 
